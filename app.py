@@ -76,6 +76,7 @@ def main():
   # Watch the document
   col_watch = col_ref.on_snapshot(on_snapshot)
 
+  df_trip = pd.DataFrame(columns=['path', 'timestamps'], data=None)
   while True:
     doc_list = q.get()
 
