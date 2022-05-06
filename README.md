@@ -11,7 +11,7 @@ A lightweight real-time dashboard for mobility data.
 Run following code on Cloud Shell, or anywhere Google Cloud SDK installed.
 
 ```
-$ gcloud run deploy mydashboard --source .
+$ gcloud run deploy mydashboard --source . --timeout=3600
 ```
 
 ## Ingesting dummy mobility data
